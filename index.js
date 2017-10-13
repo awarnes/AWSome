@@ -22,5 +22,5 @@ app.get('/break', (req, res) => {
   res.send('This didn\'t work!')
 })
 
-app.listen(3000, () => console.log('Server running on port 3000')
+app.listen(3000, () => console.log('Server running on port 3000'))
 

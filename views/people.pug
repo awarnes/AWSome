@@ -1,0 +1,10 @@
+html
+  head
+    title CEO
+  body
+    h1= person.name.title + ' ' + person.name.first + ' ' + person.name.last
+    <p>Lives at:</p>
+    p= person.location.street
+    p= person.location.city + ', ' + person.location.state + ' ' + person.location.postcode
+    <p>Image:</p>
+    img.image(src= person.picture.large)
